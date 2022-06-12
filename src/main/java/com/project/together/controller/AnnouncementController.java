@@ -30,7 +30,7 @@ public class AnnouncementController {
     //공지사항 입력
     @GetMapping("/admin/announcementForm")
     public String announcementForm() {
-        return "admin/announcementForm";
+        return "/admin/announcementForm";
     }
 
     @PostMapping("/admin/announcementForm")
